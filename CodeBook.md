@@ -26,14 +26,14 @@ For each record in the dataset it is provided:
 
 # Transformation on the dataset
 
-Import the zip file downloaded from the Coursera website to your working directory 
-From there, unzip the file using the unzip command
-Access the data from R, and create new variables for each dataset 
-Merge the datasets, using the rbind function
-Look for all iterations of mean or std in the features (feat) dataset and collect only the variable with mean or std in X 
-Replace the variables in the Y dataset by their description
-Save all variable names into "names" & replace the names in the X2 dataset
-Rename the variable name in Subject (to SubjectID) and in Y (to Activity)
-Then, combine (cbind) the 3 datasets
-Transform the newly-created into a dataframe
-Rename the variable names, and export the file as a .txt file
+- Import the zip file downloaded from the Coursera website to your working directory 
+- From there, unzip the file using the unzip command
+- Access the data from R, and create new variables for each dataset 
+- Merge the datasets, using the rbind function
+- Look for all iterations of mean or std in the features (feat) dataset and collect only the variable with mean or std in X 
+- Replace the variables in the Y dataset by their description
+- Save all variable names into "names" & replace the names in the X2 dataset
+- Rename the variable name in Subject (to SubjectID) and in Y (to Activity)
+- Then, combine (cbind) the 3 datasets
+- Transform the newly-created into a dataframe
+- Rename the variable names, and export the file as a .txt file
