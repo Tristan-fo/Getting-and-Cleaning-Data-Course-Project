@@ -2,10 +2,7 @@ path <- getwd()
 url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(url, file.path(path, "data.zip"))
 
-# The zip file containing the data must be under the same directory
-
 unzip("data.zip")
-
 
 ## 1.Merges the training and the test sets to create one data set:
 
